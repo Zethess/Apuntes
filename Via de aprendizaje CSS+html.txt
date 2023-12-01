@@ -1,0 +1,73 @@
+HTML5,CSS,Bootstrap,SASS,Flexbox,Grid
+
+HTML5 ---> https://www.w3schools.com/html/
+CSS ----> https://lenguajecss.com/css/
+Bootstrap ----> https://www.youtube.com/watch?v=-qfEOE4vtxE 
+Herramienta diseño y maquetación ----> https://picpick.app/es/download/
+
+Curso HTML5,CSS,SASS,Flexbox,Grid No seguir BEM
+https://www.udemy.com/course/css-grid-y-flexbox-la-guia-definitiva-crea-10-proyectos/
+
+Todos son responsive 
+1-Proyecto Tienda de muebles uso de grid, navegación entre páginas, formularios Primer proyecto 
+2-Proyecto Tienda cascos Animaciones
+3-Proyecto Podcast SASS y Mixin Animaciones y grid
+4-Proyecto App Comida Animaciones,grid de testimonios
+5-Proyecto Nucleus 
+6-Proyecto Real State Efecto Imagenes *
+7-Clon página meeti Formulario de busqueda, proximos eventos, navegación entre páginas y mapa
+8-Proyecto Cafetería SASS galeria con Grid, navegación entre páginas, formulario reservas*
+9-Clon airbnb formulario de busqueda
+10-Proyecto Salón spa navegación redes sociales, slider *
+11-Proyecto Arquitectura en el bosque grid, posicionamiento de imagenes en el fondo *
+12-Proyecto Escuela de cocina 
+13-Tienda de guitarra
+
+Extensiones VScode 
+Material Icon Theme o vscode-icons
+Flatland Monokai Theme
+Terminal
+Live Server
+**HTML**
+Auto Rename Tag
+Auto Close Tag
+Auto Complete Tag
+
+Herramienta Responsively 
+
+Snippet Media Queries
+"media query" : {
+		"prefix" : "mq",
+		"body" : [ 
+			"@media (min-width: $1) { \n\t$2\n}"
+		]
+	}
+
+Snippet avif y webp
+"imagenes": {
+		"prefix": "pic",
+		"body": [
+			"<picture>",
+				"<source", 
+					"\t sizes=\"1920w, 1280w, 640w\" ",
+					"\t srcset=\"img/imagen.avif 1920w, \n\t\t\t img/imagen-1280.avif 1280w, \n\t\t\t img/imagen-640.avif 640w\" ",
+					"\t type=\"image/avif\">",
+				"<source", 
+					"\t sizes=\"1920w, 1280w, 640w\" ",
+					"\t srcset=\"img/imagen.webp 1920w, \n\t\t\t img/imagen-1280.webp 1280w, \n\t\t\t img/imagen-640.webp 640w\" ",
+					"\t type=\"image/webp\">",
+				"<source", 
+					"\t sizes=\"1920w, 1280w, 640w\" ",
+					"\t srcset=\"img/imagen.jpg 1920w, \n\t\t\t img/imagen-1280.jpg 1280w, \n\t\t\t img/imagen-640.jpg 640w\" ",
+					"\t type=\"image/jpeg\">",
+				"<img loading=\"lazy\" decoding=\"async\" src=\"img/imagen.jpg\" lazyalt=\"imagen\" width=\"500\" height=\"300\">",
+			"</picture>"
+		]
+	}
+
+Juegos aprender flexbox
+https://flexboxfroggy.com/
+
+TIP
+
+Siempre que se muestren dispositivos y precios, se muestran de mas caros a mas baratos, porque puede ser que no llegue a ver el mas caro

@@ -1,0 +1,21 @@
+Solo para proyectos que trabajen con node.js + angular
+
+Ejecutar el script npm run build, el resultado será una nueva carpeta llamada dist, demtro de esta tendremos otra llamada bases y dentro otra llamada browser
+cogemos todos los elementos dentro de esa carpeta y los movemos directamente a la carpeta dist, eliminando luego la carpeta browser
+
+Creamos el nuevo repositorio donde queremos subir el proyecto
+
+Subimos el proyecto al repositorio creado anteriormente
+
+Vamos al apartado de settings/pages 
+
+En source seleccionamos Deploy from a branch  y en branch en el campo que se encuentra en medio de save y main,
+pinchamos y seleccionamos la opción de docs
+
+Cogemos la carpeta de bases y la movemos al root de la aplicacion, al mismo nivel que el .md y src, luego cambiamos el nombre de la carpeta a docs
+
+Luego el fichero index.html dentro del fichero docs cambiamos <base href="/"> por  <base href="./">
+
+Ahora hacemos un commit y lu subimos al repositorio
+
+Luego ya lo lanzamos el pages 
